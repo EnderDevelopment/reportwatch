@@ -1,0 +1,14 @@
+name: ReportPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  report:
+    description: Reports a player to staff.
+    usage: /report [player] [reason]
+  report-teleport-normal:
+    description: Teleports staff to a reported player.
+    usage: /report-teleport-normal [player]
+  report-teleport-spec:
+    description: Spectates a reported player.
+    usage: /report-teleport-spec [player]
